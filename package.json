@@ -1,0 +1,41 @@
+{
+  "name": "ll-questions",
+  "version": "1.0.0",
+  "description": "Gestao de questoes do Letra da Lei",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JFRNogueira/ll-questions.git"
+  },
+  "author": "Johannes Nogueira <johannes.nogueira@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JFRNogueira/ll-questions/issues"
+  },
+  "homepage": "https://github.com/JFRNogueira/ll-questions#readme",
+  "dependencies": {
+    "@typegoose/typegoose": "^7.6.1",
+    "apollo-server-express": "^2.25.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "graphql": "^15.5.0",
+    "mongoose": "^5.12.14",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1",
+    "typedi": "^0.10.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.12",
+    "@types/graphql": "^14.5.0",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^15.12.2",
+    "nodemon": "^2.0.7",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  }
+}
